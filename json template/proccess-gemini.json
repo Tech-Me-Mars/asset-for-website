@@ -1,0 +1,1033 @@
+{
+  "version": "0.4",
+  "title": "Software Development Services process section",
+  "type": "section",
+  "content": [
+    {
+      "elType": "container",
+      "isInner": false,
+      "isLocked": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1140
+        },
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_color": "#F8F3F3",
+        "padding": {
+          "unit": "px",
+          "top": 80,
+          "right": 20,
+          "bottom": 80,
+          "left": 20,
+          "isLinked": false
+        },
+        "flex_gap": {
+          "column": "0",
+          "row": "80",
+          "unit": "px",
+          "isLinked": false
+        },
+        "flex_direction": "column"
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "isInner": false,
+          "isLocked": false,
+          "settings": {
+            "title": "Software Development Services",
+            "align": "center",
+            "header_size": "h2",
+            "title_color": "#006d46",
+            "typography_typography": "custom",
+            "typography_font_family": "Kanit",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 36
+            },
+            "typography_font_weight": "700",
+            "_margin": {
+              "unit": "px",
+              "top": 0,
+              "right": 0,
+              "bottom": 40,
+              "left": 0,
+              "isLinked": false
+            }
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "isLocked": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "column": "60",
+              "row": "40",
+              "unit": "px",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "elType": "container",
+              "isInner": true,
+              "isLocked": false,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "image": {
+                      "url": "https://manaosoftware.co.th/wp-content/uploads/2024/09/Build-your-own%E2%80%A8development-team.webp",
+                      "id": ""
+                    },
+                    "image_size": "full",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": 16,
+                      "right": 16,
+                      "bottom": 16,
+                      "left": 16,
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ]
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "isLocked": false,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 20,
+                  "bottom": 0,
+                  "left": 20,
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "title": "01/",
+                    "title_color": "#8BC901",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Kanit",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "700",
+                    "_margin": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 10,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "title": "จ้างทีมงานพัฒนาซอฟต์แวร์ของคุณเอง",
+                    "header_size": "h3",
+                    "title_color": "#006d46",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Kanit",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_weight": "600",
+                    "_margin": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 20,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "editor": "<p>เรามีทีมงานครบ ไม่ว่าจะเป็น ทีมโปรแกรมเมอร์ ผู้ทดสอบ นักออกแบบ สถาปนิกซอฟต์แวร์ และผู้จัดการโครงการ เราสามารถจัดนักพัฒนาซอฟต์แวร์ให้กับคุณได้ทุกระดับ ตั้งแต่ระดับจูเนียร์ไปจนถึงระดับกลาง ระดับอาวุโส และระดับผู้นำ</p>",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Kanit",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    },
+                    "text_color": "#333333"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "text": "เรียนรู้เพิ่มเติม",
+                    "link": {
+                      "url": "#"
+                    },
+                    "size": "sm",
+                    "icon": "fa fa-arrow-right",
+                    "icon_align": "right",
+                    "icon_indent": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "button_text_color": "#006d46",
+                    "background_color": "rgba(0,0,0,0)",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Kanit",
+                    "typography_font_weight": "700",
+                    "text_padding": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "button"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "isLocked": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "column": "60",
+              "row": "40",
+              "unit": "px",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "elType": "container",
+              "isInner": true,
+              "isLocked": false,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "_flex_order_mobile": 2,
+                "padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 20,
+                  "bottom": 0,
+                  "left": 20,
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "title": "02/",
+                    "title_color": "#8BC901",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Kanit",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "700",
+                    "_margin": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 10,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "title": "Web App Development",
+                    "header_size": "h3",
+                    "title_color": "#006d46",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Kanit",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_weight": "600",
+                    "_margin": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 20,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "editor": "<p>เราจะให้โซลูชั่นที่เหมาะสมให้กับคุณ และยังต้องพร้อมใช้งานบนเว็บไซต์ และทำให้ลูกค้าใหม่ของคุณสามารถเข้าใช้งาน Web App ผ่านทางแพลตฟอร์มต่างๆ ได้เป็นอย่างดี เว็บแอปพลิเคชัน เหมาะอย่างยิ่งสำหรับธุรกิจที่ต้องการผลิตภัณฑ์เริ่มต้นแบบครบวงจร</p>",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Kanit",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    },
+                    "text_color": "#333333"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "text": "เรียนรู้เพิ่มเติม",
+                    "link": {
+                      "url": "#"
+                    },
+                    "size": "sm",
+                    "icon": "fa fa-arrow-right",
+                    "icon_align": "right",
+                    "icon_indent": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "button_text_color": "#006d46",
+                    "background_color": "rgba(0,0,0,0)",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Kanit",
+                    "typography_font_weight": "700",
+                    "text_padding": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "button"
+                }
+              ]
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "isLocked": false,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "_flex_order_mobile": 1
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "image": {
+                      "url": "https://manaosoftware.co.th/wp-content/uploads/2024/01/55-65b3721a01d74.webp",
+                      "id": ""
+                    },
+                    "image_size": "full",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": 16,
+                      "right": 16,
+                      "bottom": 16,
+                      "left": 16,
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "isLocked": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "column": "60",
+              "row": "40",
+              "unit": "px",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "elType": "container",
+              "isInner": true,
+              "isLocked": false,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "image": {
+                      "url": "https://manaosoftware.co.th/wp-content/uploads/2025/06/Untitled-design-23.png",
+                      "id": ""
+                    },
+                    "image_size": "full",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": 16,
+                      "right": 16,
+                      "bottom": 16,
+                      "left": 16,
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ]
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "isLocked": false,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 20,
+                  "bottom": 0,
+                  "left": 20,
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "title": "03/",
+                    "title_color": "#8BC901",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Kanit",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "700",
+                    "_margin": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 10,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "title": "Mobile App Development",
+                    "header_size": "h3",
+                    "title_color": "#006d46",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Kanit",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_weight": "600",
+                    "_margin": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 20,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "editor": "<p>เราสามารถออกแบบ สร้าง และเปิดตัว Mobile App ของคุณไม่ว่าจะสำหรับระบบปฏิบัติการณ์ iOS หรือ Android และเรามั่นใจว่าเราจะมอบประสบการณ์ให้กับผู้ใช้งานได้อย่างมีประสิทธิภาพที่ดีที่สุด สามารถใช้ประโยชน์จาก การแจ้งเตือน การติดตามตำแหน่ง และอื่นๆ</p>",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Kanit",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    },
+                    "text_color": "#333333"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "text": "เรียนรู้เพิ่มเติม",
+                    "link": {
+                      "url": "#"
+                    },
+                    "size": "sm",
+                    "icon": "fa fa-arrow-right",
+                    "icon_align": "right",
+                    "icon_indent": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "button_text_color": "#006d46",
+                    "background_color": "rgba(0,0,0,0)",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Kanit",
+                    "typography_font_weight": "700",
+                    "text_padding": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "button"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "isLocked": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "column": "60",
+              "row": "40",
+              "unit": "px",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "elType": "container",
+              "isInner": true,
+              "isLocked": false,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "_flex_order_mobile": 2,
+                "padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 20,
+                  "bottom": 0,
+                  "left": 20,
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "title": "04/",
+                    "title_color": "#8BC901",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Kanit",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "700",
+                    "_margin": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 10,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "title": "Software Quality Assurance",
+                    "header_size": "h3",
+                    "title_color": "#006d46",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Kanit",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_weight": "600",
+                    "_margin": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 20,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "editor": "<p>Test your software for defects. เราจะทำการตรวจสอบ และ กำจัด Bug ต่างๆ ที่มีอยู่ในโค้ดออกไปอย่างเด็ดขาด QA tester ของเราได้ผ่านการรับรอง และทดสอบมาตรฐานการพัฒนาซอฟต์แวร์ทั้งหลายระดับ การทำงานของเราเน้นการตรวจสอบที่ละเอียด</p>",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Kanit",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    },
+                    "text_color": "#333333"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "text": "เรียนรู้เพิ่มเติม",
+                    "link": {
+                      "url": "#"
+                    },
+                    "size": "sm",
+                    "icon": "fa fa-arrow-right",
+                    "icon_align": "right",
+                    "icon_indent": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "button_text_color": "#006d46",
+                    "background_color": "rgba(0,0,0,0)",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Kanit",
+                    "typography_font_weight": "700",
+                    "text_padding": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "button"
+                }
+              ]
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "isLocked": false,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "_flex_order_mobile": 1
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "image": {
+                      "url": "https://manaosoftware.co.th/wp-content/uploads/2025/08/Untitled-design-54.png",
+                      "id": ""
+                    },
+                    "image_size": "full",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": 16,
+                      "right": 16,
+                      "bottom": 16,
+                      "left": 16,
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "isLocked": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "column": "60",
+              "row": "40",
+              "unit": "px",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "elType": "container",
+              "isInner": true,
+              "isLocked": false,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "image": {
+                      "url": "https://manaosoftware.co.th/wp-content/uploads/2025/06/Untitled-design-21.png",
+                      "id": ""
+                    },
+                    "image_size": "full",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": 16,
+                      "right": 16,
+                      "bottom": 16,
+                      "left": 16,
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ]
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "isLocked": false,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 20,
+                  "bottom": 0,
+                  "left": 20,
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "title": "05/",
+                    "title_color": "#8BC901",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Kanit",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "700",
+                    "_margin": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 10,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "title": "Penetration Testing Services",
+                    "header_size": "h3",
+                    "title_color": "#006d46",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Kanit",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_weight": "600",
+                    "_margin": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 20,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "editor": "<p>เมื่อคุณต้องการรับรองความปลอดภัยของเว็บแอปพลิเคชันของคุณ ไม่มีอะไรดีไปกว่าบริการ “Penetration Testing” ที่มีทีม Outsource เข้ามาทดสอบระบบของคุณ ผู้เชี่ยวชาญด้านความปลอดภัยของเรา จะช่วยระบุจุดอ่อน หรือ ช่องโหว่ภายในระบบซอฟต์แวร์ของคุณ</p>",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Kanit",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    },
+                    "text_color": "#333333"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "text": "เรียนรู้เพิ่มเติม",
+                    "link": {
+                      "url": "#"
+                    },
+                    "size": "sm",
+                    "icon": "fa fa-arrow-right",
+                    "icon_align": "right",
+                    "icon_indent": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "button_text_color": "#006d46",
+                    "background_color": "rgba(0,0,0,0)",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Kanit",
+                    "typography_font_weight": "700",
+                    "text_padding": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "button"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

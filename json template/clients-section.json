@@ -1,0 +1,263 @@
+{
+  "version": "0.4",
+  "title": "MTmmo Software - Clients Section",
+  "type": "section",
+  "content": [
+    {
+      "elType": "container",
+      "isInner": false,
+      "isLocked": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1140
+        },
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "min_height": {
+          "unit": "px",
+          "size": 400
+        },
+        "padding": {
+          "unit": "px",
+          "top": 80,
+          "right": 20,
+          "bottom": 80,
+          "left": 20,
+          "isLinked": false
+        },
+        "background_color": "#F9F9F9"
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "isInner": false,
+          "isLocked": false,
+          "settings": {
+            "title": "ผู้ใช้บริการของเรา",
+            "align": "center",
+            "header_size": "h2",
+            "title_color": "#333333",
+            "typography_typography": "custom",
+            "typography_font_family": "Kanit",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 36
+            },
+            "typography_font_weight": "600",
+            "_margin": {
+              "unit": "px",
+              "top": 0,
+              "right": 0,
+              "bottom": 50,
+              "left": 0,
+              "isLinked": false
+            }
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "isLocked": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_justify_content": "center",
+            "flex_gap": {
+              "column": "30",
+              "row": "30",
+              "unit": "px",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "elType": "container",
+              "isInner": true,
+              "isLocked": false,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 12,
+                  "right": 12,
+                  "bottom": 12,
+                  "left": 12,
+                  "isLinked": true
+                },
+                "border_style": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "isLinked": true
+                },
+                "border_color": "#E5E5E5",
+                "box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 5,
+                  "blur": 15,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.05)"
+                },
+                "box_shadow_hover": {
+                  "horizontal": 0,
+                  "vertical": 10,
+                  "blur": 25,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.1)"
+                },
+                "border_color_hover": "#006d46",
+                "padding": {
+                  "unit": "px",
+                  "top": 40,
+                  "right": 20,
+                  "bottom": 40,
+                  "left": 20,
+                  "isLinked": false
+                },
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "transition": "all 0.3s"
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "image": {
+                      "url": "https://placehold.co/400x150/png?text=Client+Logo+1",
+                      "id": ""
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 60
+                    },
+                    "opacity": {
+                      "unit": "px",
+                      "size": 0.8
+                    },
+                    "opacity_hover": {
+                      "unit": "px",
+                      "size": 1
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ]
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "isLocked": false,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 12,
+                  "right": 12,
+                  "bottom": 12,
+                  "left": 12,
+                  "isLinked": true
+                },
+                "border_style": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "isLinked": true
+                },
+                "border_color": "#E5E5E5",
+                "box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 5,
+                  "blur": 15,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.05)"
+                },
+                "box_shadow_hover": {
+                  "horizontal": 0,
+                  "vertical": 10,
+                  "blur": 25,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.1)"
+                },
+                "border_color_hover": "#006d46",
+                "padding": {
+                  "unit": "px",
+                  "top": 40,
+                  "right": 20,
+                  "bottom": 40,
+                  "left": 20,
+                  "isLinked": false
+                },
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "transition": "all 0.3s"
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "isInner": false,
+                  "isLocked": false,
+                  "settings": {
+                    "image": {
+                      "url": "https://placehold.co/400x150/png?text=Client+Logo+2",
+                      "id": ""
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 60
+                    },
+                    "opacity": {
+                      "unit": "px",
+                      "size": 0.8
+                    },
+                    "opacity_hover": {
+                      "unit": "px",
+                      "size": 1
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
