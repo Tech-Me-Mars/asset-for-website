@@ -1,0 +1,262 @@
+{
+    "content": [
+        {
+            "id": "section_contact_main",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#121212",
+                "structure": "20",
+                "padding": {
+                    "unit": "px",
+                    "top": "80",
+                    "right": "0",
+                    "bottom": "80",
+                    "left": "0",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "column_contact_info",
+                    "settings": {
+                        "_column_size": 50,
+                        "vertical_align": "middle",
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "40",
+                            "bottom": "0",
+                            "left": "20",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "heading_title",
+                            "settings": {
+                                "title": "Let's Build Something Great",
+                                "header_size": "h2",
+                                "align": "left",
+                                "title_color": "#FFFFFF",
+                                "typography_typography": "custom",
+                                "typography_font_weight": "700",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 42
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "heading_subtitle",
+                            "settings": {
+                                "title": "Tech Me Mars - System & Solution",
+                                "header_size": "h4",
+                                "align": "left",
+                                "title_color": "#FF5722",
+                                "typography_typography": "custom",
+                                "typography_font_weight": "500",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 18
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "divider_line",
+                            "settings": {
+                                "width": {
+                                    "unit": "%",
+                                    "size": 20
+                                },
+                                "align": "left",
+                                "gap": {
+                                    "unit": "px",
+                                    "size": 30
+                                },
+                                "color": "#FF5722",
+                                "view": "line"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "divider",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "icon_list_contact",
+                            "settings": {
+                                "icon_list": [
+                                    {
+                                        "text": "contact@techmemars.com",
+                                        "icon": {
+                                            "value": "fas fa-envelope",
+                                            "library": "fa-solid"
+                                        }
+                                    },
+                                    {
+                                        "text": "0xx-xxx-xxxx",
+                                        "icon": {
+                                            "value": "fas fa-phone-alt",
+                                            "library": "fa-solid"
+                                        }
+                                    },
+                                    {
+                                        "text": "Bangkok, Thailand",
+                                        "icon": {
+                                            "value": "fas fa-map-marker-alt",
+                                            "library": "fa-solid"
+                                        }
+                                    }
+                                ],
+                                "icon_color": "#FF5722",
+                                "text_color": "#B0B0B0",
+                                "space_between": {
+                                    "unit": "px",
+                                    "size": 15
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "icon-list",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "spacer_map",
+                            "settings": {
+                                "space": {
+                                    "unit": "px",
+                                    "size": 30
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "spacer",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "google_map_dark",
+                            "settings": {
+                                "location": "13.75398,100.50144",
+                                "zoom": {
+                                    "unit": "px",
+                                    "size": 15
+                                },
+                                "height": {
+                                    "unit": "px",
+                                    "size": 250
+                                },
+                                "prevent_scroll": "yes",
+                                "custom_css": "selector iframe {\n    filter: invert(90%) hue-rotate(180deg) contrast(1.2) grayscale(0.2) !important;\n    border-radius: 10px;\n    border: 1px solid #333;\n}"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "google_maps",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "column_contact_form",
+                    "settings": {
+                        "_column_size": 50,
+                        "background_background": "classic",
+                        "background_color": "#1E1E1E",
+                        "border_radius": {
+                            "unit": "px",
+                            "top": "15",
+                            "right": "15",
+                            "bottom": "15",
+                            "left": "15",
+                            "isLinked": true
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "40",
+                            "right": "40",
+                            "bottom": "40",
+                            "left": "40",
+                            "isLinked": true
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "form_techmemars",
+                            "settings": {
+                                "form_name": "Tech Me Mars Contact",
+                                "form_fields": [
+                                    {
+                                        "custom_id": "name",
+                                        "field_type": "text",
+                                        "field_label": "Name",
+                                        "placeholder": "Your Name",
+                                        "width": "100"
+                                    },
+                                    {
+                                        "custom_id": "email",
+                                        "field_type": "email",
+                                        "field_label": "Email",
+                                        "placeholder": "Email Address",
+                                        "width": "100",
+                                        "required": "true"
+                                    },
+                                    {
+                                        "custom_id": "message",
+                                        "field_type": "textarea",
+                                        "field_label": "Message",
+                                        "placeholder": "Tell us about your project...",
+                                        "width": "100",
+                                        "rows": 4
+                                    }
+                                ],
+                                "button_text": "Send Message",
+                                "button_background_color": "#FF5722",
+                                "button_text_color": "#FFFFFF",
+                                "button_border_radius": {
+                                    "unit": "px",
+                                    "top": "30",
+                                    "right": "30",
+                                    "bottom": "30",
+                                    "left": "30",
+                                    "isLinked": true
+                                },
+                                "field_background_color": "#121212",
+                                "field_text_color": "#FFFFFF",
+                                "label_color": "#B0B0B0",
+                                "input_border_color": "#333333",
+                                "input_border_width": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "1",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "form",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": [],
+    "version": "0.4",
+    "title": "Tech Me Mars Contact With Map",
+    "type": "section"
+}
