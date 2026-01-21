@@ -1,0 +1,548 @@
+{
+    "content": [
+        {
+            "id": "section_hero",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#0a0a0a",
+                "padding": {
+                    "unit": "px",
+                    "top": "100",
+                    "right": "20",
+                    "bottom": "80",
+                    "left": "20"
+                }
+            },
+            "elements": [
+                {
+                    "id": "column_hero",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "heading_title",
+                            "settings": {
+                                "title": "SERVICES & SOLUTIONS",
+                                "align": "center",
+                                "header_size": "h4",
+                                "title_color": "#FF6B00",
+                                "typography_typography": "custom",
+                                "typography_font_weight": "600",
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 2
+                                },
+                                "_animation": "fadeInDown"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "heading_main",
+                            "settings": {
+                                "title": "Technology That Drives Real Business",
+                                "align": "center",
+                                "title_color": "#FFFFFF",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 48,
+                                    "sizes": []
+                                },
+                                "typography_font_weight": "700",
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.2
+                                },
+                                "_animation": "fadeInUp"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "text_intro",
+                            "settings": {
+                                "editor": "<p style=\"text-align: center;\">เราพัฒนาระบบและโซลูชันด้านเทคโนโลยีให้ธุรกิจใช้งานได้จริง ครอบคลุมทั้งเว็บไซต์ แอปพลิเคชัน ระบบหลังบ้าน และงานเชื่อมต่อ API โดยเน้นคุณภาพ ความปลอดภัย และ UX/UI ที่ยอดเยี่ยม</p>",
+                                "align": "center",
+                                "text_color": "#B0B0B0",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 18
+                                },
+                                "_animation": "fadeInUp",
+                                "_animation_delay": 200,
+                                "width": {
+                                    "unit": "%",
+                                    "size": 60
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "section_services_grid",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#0a0a0a",
+                "padding": {
+                    "unit": "px",
+                    "top": "20",
+                    "right": "20",
+                    "bottom": "100",
+                    "left": "20"
+                }
+            },
+            "elements": [
+                {
+                    "id": "column_grid_wrapper",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "inner_section_row1",
+                            "settings": {
+                                "gap": "wide"
+                            },
+                            "elements": [
+                                {
+                                    "id": "col_service_1",
+                                    "settings": {
+                                        "_column_size": 33,
+                                        "background_background": "classic",
+                                        "background_color": "#141414",
+                                        "border_radius": {
+                                            "unit": "px",
+                                            "top": "12",
+                                            "right": "12",
+                                            "bottom": "12",
+                                            "left": "12"
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "40",
+                                            "right": "30",
+                                            "bottom": "40",
+                                            "left": "30"
+                                        },
+                                        "margin": {
+                                            "unit": "px",
+                                            "bottom": "30"
+                                        },
+                                        "border_style": "solid",
+                                        "border_width": {
+                                            "unit": "px",
+                                            "top": "1",
+                                            "right": "1",
+                                            "bottom": "1",
+                                            "left": "1"
+                                        },
+                                        "border_color": "#222222",
+                                        "_animation": "fadeInUp",
+                                        "animation_delay": 100
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "icon_1",
+                                            "settings": {
+                                                "selected_icon": {
+                                                    "value": "fas fa-laptop-code",
+                                                    "library": "fa-solid"
+                                                },
+                                                "view": "default",
+                                                "primary_color": "#FF6B00",
+                                                "space": {
+                                                    "unit": "px",
+                                                    "size": 20
+                                                }
+                                            },
+                                            "widgetType": "icon",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "head_1",
+                                            "settings": {
+                                                "title": "Web Application Development",
+                                                "header_size": "h3",
+                                                "title_color": "#FFFFFF",
+                                                "typography_typography": "custom",
+                                                "typography_font_size": { "unit": "px", "size": 22 }
+                                            },
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "text_1",
+                                            "settings": {
+                                                "editor": "<p>พัฒนาเว็บแอปตามความต้องการของธุรกิจ เช่น ระบบจัดการข้อมูล Dashboard และ Workflow</p><p><span style=\"color: #FF6B00; font-size: 14px;\">● ทำงานเร็ว เสถียร รองรับการขยายตัว</span></p>",
+                                                "text_color": "#B0B0B0"
+                                            },
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                },
+                                {
+                                    "id": "col_service_2",
+                                    "settings": {
+                                        "_column_size": 33,
+                                        "background_background": "classic",
+                                        "background_color": "#141414",
+                                        "border_radius": { "unit": "px", "size": 12 },
+                                        "padding": { "unit": "px", "size": 30 },
+                                        "margin": { "unit": "px", "bottom": 30 },
+                                        "border_style": "solid",
+                                        "border_width": { "unit": "px", "size": 1 },
+                                        "border_color": "#222222",
+                                        "_animation": "fadeInUp",
+                                        "_animation_delay": 200
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "icon_2",
+                                            "settings": {
+                                                "selected_icon": { "value": "fas fa-mobile-alt", "library": "fa-solid" },
+                                                "primary_color": "#FF6B00",
+                                                "space": { "unit": "px", "size": 20 }
+                                            },
+                                            "widgetType": "icon",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "head_2",
+                                            "settings": {
+                                                "title": "Mobile App Development",
+                                                "header_size": "h3",
+                                                "title_color": "#FFFFFF",
+                                                "typography_typography": "custom",
+                                                "typography_font_size": { "unit": "px", "size": 22 }
+                                            },
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "text_2",
+                                            "settings": {
+                                                "editor": "<p>สร้างแอป iOS/Android รองรับฟีเจอร์สำคัญ เช่น แจ้งเตือน แผนที่ และเชื่อมต่อ API</p><p><span style=\"color: #FF6B00; font-size: 14px;\">● ดีไซน์ใช้งานง่าย รองรับผู้ใช้จำนวนมาก</span></p>",
+                                                "text_color": "#B0B0B0"
+                                            },
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                },
+                                {
+                                    "id": "col_service_3",
+                                    "settings": {
+                                        "_column_size": 33,
+                                        "background_background": "classic",
+                                        "background_color": "#141414",
+                                        "border_radius": { "unit": "px", "size": 12 },
+                                        "padding": { "unit": "px", "size": 30 },
+                                        "margin": { "unit": "px", "bottom": 30 },
+                                        "border_style": "solid",
+                                        "border_width": { "unit": "px", "size": 1 },
+                                        "border_color": "#222222",
+                                        "_animation": "fadeInUp",
+                                        "_animation_delay": 300
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "icon_3",
+                                            "settings": {
+                                                "selected_icon": { "value": "fas fa-network-wired", "library": "fa-solid" },
+                                                "primary_color": "#FF6B00",
+                                                "space": { "unit": "px", "size": 20 }
+                                            },
+                                            "widgetType": "icon",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "head_3",
+                                            "settings": {
+                                                "title": "API & System Integration",
+                                                "header_size": "h3",
+                                                "title_color": "#FFFFFF",
+                                                "typography_typography": "custom",
+                                                "typography_font_size": { "unit": "px", "size": 22 }
+                                            },
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "text_3",
+                                            "settings": {
+                                                "editor": "<p>เชื่อมต่อระบบ Payment, LINE Login, OAuth หรือระบบภายในองค์กรให้ทำงานร่วมกัน</p><p><span style=\"color: #FF6B00; font-size: 14px;\">● มาตรฐาน ปลอดภัย รองรับโหลดสูง</span></p>",
+                                                "text_color": "#B0B0B0"
+                                            },
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        },
+                        {
+                            "id": "inner_section_row2",
+                            "settings": {
+                                "gap": "wide",
+                                "margin": { "unit": "px", "top": 30 }
+                            },
+                            "elements": [
+                                {
+                                    "id": "col_service_4",
+                                    "settings": {
+                                        "_column_size": 33,
+                                        "background_background": "classic",
+                                        "background_color": "#141414",
+                                        "border_radius": { "unit": "px", "size": 12 },
+                                        "padding": { "unit": "px", "size": 30 },
+                                        "border_style": "solid",
+                                        "border_width": { "unit": "px", "size": 1 },
+                                        "border_color": "#222222",
+                                        "_animation": "fadeInUp",
+                                        "_animation_delay": 400
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "icon_4",
+                                            "settings": {
+                                                "selected_icon": { "value": "fas fa-pencil-ruler", "library": "fa-solid" },
+                                                "primary_color": "#FF6B00",
+                                                "space": { "unit": "px", "size": 20 }
+                                            },
+                                            "widgetType": "icon",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "head_4",
+                                            "settings": {
+                                                "title": "UI/UX Design",
+                                                "header_size": "h3",
+                                                "title_color": "#FFFFFF",
+                                                "typography_typography": "custom",
+                                                "typography_font_size": { "unit": "px", "size": 22 }
+                                            },
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "text_4",
+                                            "settings": {
+                                                "editor": "<p>ออกแบบหน้าจอให้ใช้งานง่าย สวยงาม สอดคล้องกับแบรนด์ พร้อม Prototype</p><p><span style=\"color: #FF6B00; font-size: 14px;\">● Flow ชัดเจน รองรับทุกอุปกรณ์</span></p>",
+                                                "text_color": "#B0B0B0"
+                                            },
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                },
+                                {
+                                    "id": "col_service_5",
+                                    "settings": {
+                                        "_column_size": 33,
+                                        "background_background": "classic",
+                                        "background_color": "#141414",
+                                        "border_radius": { "unit": "px", "size": 12 },
+                                        "padding": { "unit": "px", "size": 30 },
+                                        "border_style": "solid",
+                                        "border_width": { "unit": "px", "size": 1 },
+                                        "border_color": "#222222",
+                                        "_animation": "fadeInUp",
+                                        "_animation_delay": 500
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "icon_5",
+                                            "settings": {
+                                                "selected_icon": { "value": "fas fa-database", "library": "fa-solid" },
+                                                "primary_color": "#FF6B00",
+                                                "space": { "unit": "px", "size": 20 }
+                                            },
+                                            "widgetType": "icon",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "head_5",
+                                            "settings": {
+                                                "title": "System Architecture",
+                                                "header_size": "h3",
+                                                "title_color": "#FFFFFF",
+                                                "typography_typography": "custom",
+                                                "typography_font_size": { "unit": "px", "size": 22 }
+                                            },
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "text_5",
+                                            "settings": {
+                                                "editor": "<p>ออกแบบโครงสร้างระบบและฐานข้อมูลให้รองรับข้อมูลจำนวนมากและมีความปลอดภัย</p><p><span style=\"color: #FF6B00; font-size: 14px;\">● ขยายง่าย เหมาะกับระบบระยะยาว</span></p>",
+                                                "text_color": "#B0B0B0"
+                                            },
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                },
+                                {
+                                    "id": "col_service_6",
+                                    "settings": {
+                                        "_column_size": 33,
+                                        "background_background": "classic",
+                                        "background_color": "#141414",
+                                        "border_radius": { "unit": "px", "size": 12 },
+                                        "padding": { "unit": "px", "size": 30 },
+                                        "border_style": "solid",
+                                        "border_width": { "unit": "px", "size": 1 },
+                                        "border_color": "#222222",
+                                        "_animation": "fadeInUp",
+                                        "_animation_delay": 600
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "icon_6",
+                                            "settings": {
+                                                "selected_icon": { "value": "fas fa-tools", "library": "fa-solid" },
+                                                "primary_color": "#FF6B00",
+                                                "space": { "unit": "px", "size": 20 }
+                                            },
+                                            "widgetType": "icon",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "head_6",
+                                            "settings": {
+                                                "title": "Maintenance & Support",
+                                                "header_size": "h3",
+                                                "title_color": "#FFFFFF",
+                                                "typography_typography": "custom",
+                                                "typography_font_size": { "unit": "px", "size": 22 }
+                                            },
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "text_6",
+                                            "settings": {
+                                                "editor": "<p>ดูแลระบบหลังส่งมอบ แก้ไข ปรับปรุง และเพิ่มฟีเจอร์ใหม่ๆ ตามต้องการ</p><p><span style=\"color: #FF6B00; font-size: 14px;\">● เหมาะสำหรับธุรกิจที่ต้องการทีมซัพพอร์ต</span></p>",
+                                                "text_color": "#B0B0B0"
+                                            },
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "section_cta",
+            "settings": {
+                "background_background": "gradient",
+                "background_color": "#FF6B00",
+                "background_color_b": "#CC5500",
+                "background_gradient_angle": { "unit": "deg", "size": 135 },
+                "padding": {
+                    "unit": "px",
+                    "top": "80",
+                    "right": "20",
+                    "bottom": "80",
+                    "left": "20"
+                },
+                "_animation": "fadeIn"
+            },
+            "elements": [
+                {
+                    "id": "column_cta",
+                    "settings": { "_column_size": 100 },
+                    "elements": [
+                        {
+                            "id": "head_cta",
+                            "settings": {
+                                "title": "สนใจใช้บริการ? ปรึกษาโซลูชันที่เหมาะกับธุรกิจคุณ",
+                                "align": "center",
+                                "title_color": "#FFFFFF",
+                                "typography_typography": "custom",
+                                "typography_font_size": { "unit": "px", "size": 36 },
+                                "typography_font_weight": "700"
+                            },
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "btn_cta_wrapper",
+                            "settings": {
+                                "align": "center",
+                                "text": "นัดคุยโปรเจกต์ | ขอใบเสนอราคา",
+                                "link": { "url": "#", "is_external": "", "nofollow": "" },
+                                "button_text_color": "#FF6B00",
+                                "background_color": "#FFFFFF",
+                                "typography_typography": "custom",
+                                "typography_font_weight": "600",
+                                "border_radius": { "unit": "px", "size": 50 },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "15",
+                                    "right": "40",
+                                    "bottom": "15",
+                                    "left": "40"
+                                },
+                                "hover_animation": "grow"
+                            },
+                            "widgetType": "button",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": [],
+    "version": "3.0",
+    "title": "Modern Tech Services Page",
+    "type": "page"
+}
